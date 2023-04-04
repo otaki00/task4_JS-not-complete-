@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+        integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="bar-container">
+            <i class="fa-solid fa-people-group"></i>
+            <div class="bar">
+                <div id="overlay-asour" class="overlay">
+                    
+                </div>
+                <h3 id="percent-asour"></h3>
+            </div>
+            <h2>Asour</h2>
+        </div>
+        <div class="bar-container">
+            <i class="fa-solid fa-people-group"></i>
+            <div class="bar">
+                <div id="overlay-yabrud" class="overlay">
+                    
+                </div>
+                <h3 id="percent-yabrud"></h3>
+            </div>
+            <h2>Yabrud</h2>
+        </div>
+        <div class="bar-container">
+            <i class="fa-solid fa-people-group"></i>
+            <div class="bar">
+                <div id="overlay-eibal" class="overlay">
+                    
+                </div>
+                <h3 id="percent-eibal"></h3>
+            </div>
+            <h2>Eibal</h2>
+        </div>
+        <div class="bar-container">
+            <i class="fa-solid fa-people-group"></i>
+            <div class="bar">
+                <div id="overlay-sheik" class="overlay">
+                    
+                </div>
+                <h3 id="percent-sheik"></h3>
+            </div>
+            <h2>Sheik</h2>
+        </div>
+        <div class="bar-container">
+            <i class="fa-solid fa-people-group"></i>
+            <div class="bar">
+                <div id="overlay-jormuq" class="overlay">
+                    
+                </div>
+                <h3 id="percent-jormuq"></h3>
+            </div>
+            <h2>Jormuq</h2>
+        </div>
+    </main>
+
+    <div class="for_form">
+        <form onsubmit="return showResult()">
+            <div class="input-container d-flex justify-content-between">
+                <div class="mb-3">
+                    <label for="numOfGroup" class="form-label">Number Of Group :</label>
+                    <input type="number" min="0" max="100" class="form-control inputOne" id="numOfGroup" >
+                </div>
+                <div class="mb-3">
+                    <label for="PeopleInGroup" class="form-label">People IN Each Group :</label>
+                    <input type="text"  class="form-control inputtwo" id="PeopleInGroup">
+                </div>
+            </div>
+
+            <button type="submit" class="btn  button">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"
+        integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

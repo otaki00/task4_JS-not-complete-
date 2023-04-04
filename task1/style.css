@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-image: url("./Twilight-0.7s-1536px.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+main {
+    padding-top: 80px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .bar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .bar-container h2{
+    font-size: 22px;
+    margin-top: 5px;
+    font-weight: 600px;
+    color: #fff;
+}
+
+main .bar{
+    width: 50px;
+    height: 300px;
+    background-image: url("./Twilight-0.7s-1536px.svg");
+    /* filter: blur(2px); */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+main .bar h3{
+    width: 100%;
+    margin: auto;
+    font-size: 17px;
+    position: absolute;
+    top: 120px;
+    z-index: 4;
+}
+
+main .bar .overlay{
+    width: 100%;
+    background-color: #FFCB8F;
+}
+
+main i{
+    font-size: 20px;
+}
+
+.for_form{
+    width: 100%;
+    height: 30%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #FF777E;
+}
+
+form{
+    width: 400px;
+}
+
+form .button{ 
+    background-color: #FF777E ;
+}
+
+form .inputOne{
+    width: 100px;
+}
+
+form .inputTwo{
+    width: 400px;
+}
